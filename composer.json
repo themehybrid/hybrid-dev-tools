@@ -1,0 +1,33 @@
+{
+  "name": "themehybrid/hybrid-dev-tools",
+  "description": "Development helper tools.",
+  "license": "GPL-2.0-or-later",
+  "type": "package",
+  "keywords": [
+    "wordpress"
+  ],
+  "authors": [
+    {
+      "name": "Theme Hybrid",
+      "email": "themehybrid@gmail.com",
+      "homepage": "https://themehybrid.com"
+    }
+  ],
+  "require": {
+    "rector/rector": "^0.17.0",
+    "themehybrid/hybrid-phpcs-rules": "dev-main"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/themehybrid/hybrid-phpcs-rules"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}
