@@ -25,9 +25,23 @@
   ],
   "minimum-stability": "dev",
   "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Hybrid\\DevTools\\": "inc/"
+    }
+  },
   "config": {
     "allow-plugins": {
       "dealerdirect/phpcodesniffer-composer-installer": true
     }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "@download-tools"
+    ],
+    "post-update-cmd": [
+      "@download-tools"
+    ],
+    "download-tools": "Hybrid\\DevTools\\Composer\\Actions::downloadTools"
   }
 }
