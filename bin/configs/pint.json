@@ -1,0 +1,25 @@
+{
+  "preset": "laravel",
+  "rules": {
+    "binary_operator_spaces": {
+      "default": "align_single_space"
+    },
+    "trim_array_spaces": false,
+    "phpdoc_no_package": false,
+    "spaces_inside_parentheses": {
+      "space": "single"
+    },
+    "braces_position": {
+      "functions_opening_brace": "same_line",
+      "classes_opening_brace": "same_line",
+      "anonymous_classes_opening_brace": "same_line"
+    },
+    "phpdoc_align": true,
+    "concat_space": {
+      "spacing": "one"
+    },
+    "trailing_comma_in_multiline": true
+  },
+  "exclude": [
+  ]
+}

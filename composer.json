@@ -15,7 +15,7 @@
   ],
   "require": {
     "rector/rector": "^0.17.0",
-    "themehybrid/hybrid-phpcs-rules": "dev-main"
+    "themehybrid/hybrid-phpcs-rules": "^1.0"
   },
   "repositories": [
     {
@@ -25,9 +25,23 @@
   ],
   "minimum-stability": "dev",
   "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Hybrid\\DevTools\\": "inc/"
+    }
+  },
   "config": {
     "allow-plugins": {
       "dealerdirect/phpcodesniffer-composer-installer": true
     }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "@download-tools"
+    ],
+    "post-update-cmd": [
+      "@download-tools"
+    ],
+    "download-tools": "Hybrid\\DevTools\\Composer\\Actions::downloadTools"
   }
 }
