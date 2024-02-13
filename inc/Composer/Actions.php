@@ -15,20 +15,20 @@ class Actions {
      */
     protected static array $tools = [
         'composer-normalize.phar' => [
-            'url' => 'https://github.com/ergebnis/composer-normalize/releases/download/2.41.1/composer-normalize.phar',
-            'ver' => '2.41.1',
+            'url' => 'https://github.com/ergebnis/composer-normalize/releases/download/2.42.0/composer-normalize.phar',
+            'ver' => '2.42.0',
         ],
         'php-scoper.phar'         => [
-            'url' => 'https://github.com/humbug/php-scoper/releases/download/0.18.10/php-scoper.phar',
-            'ver' => '0.18.10',
+            'url' => 'https://github.com/humbug/php-scoper/releases/download/0.18.11/php-scoper.phar',
+            'ver' => '0.18.11',
         ],
         'pint.phar'               => [
-            'url' => 'https://github.com/laravel/pint/releases/download/v1.13.7/pint.phar',
-            'ver' => 'v1.13.7',
+            'url' => 'https://github.com/laravel/pint/releases/download/v1.13.10/pint.phar',
+            'ver' => 'v1.13.10',
         ],
         'psalm.phar'              => [
-            'url' => 'https://github.com/vimeo/psalm/releases/download/5.18.0/psalm.phar',
-            'ver' => '5.18.0',
+            'url' => 'https://github.com/vimeo/psalm/releases/download/5.21.1/psalm.phar',
+            'ver' => '5.21.1',
         ],
         'parallel-lint.phar'      => [
             'url' => 'https://github.com/php-parallel-lint/PHP-Parallel-Lint/releases/download/v1.3.2/parallel-lint.phar',
