@@ -18,7 +18,18 @@
     "concat_space": {
       "spacing": "one"
     },
-    "trailing_comma_in_multiline": true
+    "trailing_comma_in_multiline": true,
+    "function_declaration": {
+      "closure_fn_spacing": "none"
+    },
+    "blank_line_between_import_groups": false,
+    "yoda_style": {
+      "always_move_variable": true,
+      "equal": true,
+      "identical": true,
+      "less_and_greater": true
+    },
+    "no_spaces_around_offset": false
   },
   "exclude": [
   ]
