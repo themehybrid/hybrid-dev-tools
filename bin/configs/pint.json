@@ -29,7 +29,8 @@
       "identical": true,
       "less_and_greater": true
     },
-    "no_spaces_around_offset": false
+    "no_spaces_around_offset": false,
+    "no_superfluous_phpdoc_tags": false
   },
   "exclude": [
   ]
