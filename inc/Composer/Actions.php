@@ -23,8 +23,8 @@ class Actions {
             'ver' => '0.18.14',
         ],
         'pint.phar'               => [
-            'url' => 'https://github.com/laravel/pint/releases/download/v1.16.1/pint.phar',
-            'ver' => 'v1.16.1',
+            'url' => 'https://github.com/laravel/pint/releases/download/v1.17.0/pint.phar',
+            'ver' => 'v1.17.0',
         ],
         'psalm.phar'              => [
             'url' => 'https://github.com/vimeo/psalm/releases/download/5.25.0/psalm.phar',
