@@ -14,7 +14,12 @@
       "classes_opening_brace": "same_line",
       "anonymous_classes_opening_brace": "same_line"
     },
-    "phpdoc_align": true,
+    "phpdoc_align": {
+      "align": "left",
+      "spacing": {
+        "params": 1
+      }
+    },
     "concat_space": {
       "spacing": "one"
     },
