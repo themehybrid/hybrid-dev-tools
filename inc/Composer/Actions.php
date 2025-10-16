@@ -19,8 +19,8 @@ class Actions {
             'ver' => '2.48.2',
         ],
         'php-scoper.phar'         => [
-            'url' => 'https://github.com/humbug/php-scoper/releases/download/0.18.17/php-scoper.phar',
-            'ver' => '0.18.17',
+            'url' => 'https://github.com/humbug/php-scoper/releases/download/0.18.18/php-scoper.phar',
+            'ver' => '0.18.18',
         ],
         'pint.phar'               => [
             'url' => 'https://github.com/laravel/pint/releases/download/v1.25.1/pint.phar',
