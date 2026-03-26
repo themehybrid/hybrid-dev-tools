@@ -14,7 +14,7 @@
     }
   ],
   "require": {
-    "rector/rector": "^2.1.7",
+    "rector/rector": "^2.3.9",
     "themehybrid/hybrid-phpcs-rules": "dev-dev"
   },
   "repositories": [
