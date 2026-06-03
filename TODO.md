@@ -1,2 +1,0 @@
-- Update Rector to https://github.com/rectorphp/rector/releases/tag/1.0.0
-- 
