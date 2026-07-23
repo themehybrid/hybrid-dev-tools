@@ -15,16 +15,16 @@ class Actions {
      */
     protected static array $tools = [
         'composer-normalize.phar' => [
-            'url' => 'https://github.com/ergebnis/composer-normalize/releases/download/2.50.0/composer-normalize.phar',
-            'ver' => '2.50.0',
+            'url' => 'https://github.com/ergebnis/composer-normalize/releases/download/2.52.0/composer-normalize.phar',
+            'ver' => '2.52.0',
         ],
         'php-scoper.phar'         => [
             'url' => 'https://github.com/humbug/php-scoper/releases/download/0.18.19/php-scoper.phar',
             'ver' => '0.18.19',
         ],
         'pint.phar'               => [
-            'url' => 'https://github.com/laravel/pint/releases/download/v1.29.0/pint.phar',
-            'ver' => 'v1.29.0',
+            'url' => 'https://github.com/laravel/pint/releases/download/v1.29.3/pint.phar',
+            'ver' => 'v1.29.3',
         ],
         'psalm.phar'              => [
             'url' => 'https://github.com/vimeo/psalm/releases/download/6.16.1/psalm.phar',
